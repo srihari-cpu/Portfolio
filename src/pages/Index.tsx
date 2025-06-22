@@ -68,7 +68,7 @@ const Index = () => {
             <div className="h-full bg-gradient-to-r from-cyan-400 to-blue-500 rounded animate-pulse"></div>
           </div>
           <div className="mt-4 text-sm text-cyan-400 terminal-cursor">
-            Initializing gaming interface
+            Initializing user interface
           </div>
         </div>
       </div>

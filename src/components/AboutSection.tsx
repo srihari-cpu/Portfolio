@@ -3,12 +3,12 @@ import React from 'react';
 
 const AboutSection: React.FC = () => {
   const skills = [
-    { name: 'JavaScript', level: 90, color: 'from-yellow-400 to-orange-500' },
+    { name: 'Java', level: 90, color: 'from-yellow-400 to-orange-500' },
     { name: 'React', level: 85, color: 'from-blue-400 to-cyan-500' },
-    { name: 'TypeScript', level: 80, color: 'from-blue-500 to-indigo-500' },
+    { name: 'JavaScript', level: 80, color: 'from-blue-500 to-indigo-500' },
     { name: 'Node.js', level: 75, color: 'from-green-400 to-emerald-500' },
     { name: 'Python', level: 70, color: 'from-blue-400 to-green-400' },
-    { name: 'Three.js', level: 65, color: 'from-purple-400 to-pink-500' }
+    { name: 'MongoDB', level: 65, color: 'from-purple-400 to-pink-500' }
   ];
 
   const attributes = [
@@ -24,7 +24,7 @@ const AboutSection: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-12">
           <h2 className="font-orbitron text-4xl neon-text mb-4 tracking-wider">
-            PLAYER PROFILE
+            Student PROFILE
           </h2>
           <div className="w-32 h-px bg-gradient-to-r from-cyan-400 to-blue-500 mx-auto"></div>
         </div>
@@ -39,7 +39,7 @@ const AboutSection: React.FC = () => {
                 </div>
               </div>
               <div>
-                <h3 className="font-orbitron text-2xl text-cyan-400 mb-2">ALEX DEVELOPER</h3>
+                <h3 className="font-orbitron text-2xl text-cyan-400 mb-2">Srihari Rangampeta</h3>
                 <div className="text-gray-300 mb-1">Full Stack Developer</div>
                 <div className="text-sm text-cyan-500">Level 5 • XP: 8,750 / 10,000</div>
                 <div className="w-48 h-2 bg-gray-700 rounded mt-2 overflow-hidden">
@@ -52,8 +52,7 @@ const AboutSection: React.FC = () => {
               <div>
                 <h4 className="text-cyan-400 font-orbitron mb-2">MISSION STATEMENT</h4>
                 <p className="text-gray-300 leading-relaxed">
-                  Passionate developer with 5+ years of experience creating immersive digital experiences. 
-                  Specialized in React, Node.js, and game development. Always ready for the next quest!
+                Full Stack Developer proficient in Java and Spring Boot with hands-on experience building scalable web applications and integrating AI technologies. Strong focus on clean code, REST APIs, and solving real-world technical challenges
                 </p>
               </div>
 

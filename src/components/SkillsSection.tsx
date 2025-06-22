@@ -6,40 +6,33 @@ const SkillsSection: React.FC = () => {
     {
       name: 'Frontend Technologies',
       skills: [
-        { name: 'React', level: 95, experience: '4 years' },
-        { name: 'TypeScript', level: 90, experience: '3 years' },
-        { name: 'Vue.js', level: 85, experience: '2 years' },
-        { name: 'Three.js', level: 80, experience: '2 years' },
-        { name: 'CSS/SCSS', level: 92, experience: '5 years' }
+        { name: 'HTML', level: 80},
+        { name: 'CSS', level: 85},
+        { name: 'JavaScript', level: 80},
+        { name: 'React', level: 86}
       ]
     },
     {
       name: 'Backend Technologies',
       skills: [
-        { name: 'Node.js', level: 88, experience: '3 years' },
-        { name: 'Python', level: 85, experience: '4 years' },
-        { name: 'Express.js', level: 90, experience: '3 years' },
-        { name: 'PostgreSQL', level: 82, experience: '2 years' },
-        { name: 'MongoDB', level: 78, experience: '2 years' }
+        { name: 'Spring-Boot', level: 82},
+        { name: 'Node.js', level: 88},
+        { name: 'Java', level: 85},
+        { name: 'MongoDB', level: 78}
       ]
     },
     {
       name: 'Tools & Platforms',
       skills: [
-        { name: 'Git', level: 93, experience: '5 years' },
-        { name: 'Docker', level: 80, experience: '2 years' },
-        { name: 'AWS', level: 75, experience: '1 year' },
-        { name: 'Figma', level: 85, experience: '3 years' },
-        { name: 'Linux', level: 82, experience: '4 years' }
+        { name: 'Git', level: 93},
+        { name: 'Postman', level: 82}
       ]
     }
   ];
 
   const certifications = [
-    { name: 'AWS Certified Developer', date: '2023', status: 'active' },
-    { name: 'React Professional Certificate', date: '2022', status: 'active' },
-    { name: 'Google Cloud Professional', date: '2023', status: 'active' },
-    { name: 'Agile Scrum Master', date: '2021', status: 'active' }
+    { name: 'Java', date: '2025', status: 'active' },
+    { name: 'JavaScript Professional Certificate', date: '2024', status: 'active' },
   ];
 
   return (
@@ -67,7 +60,6 @@ const SkillsSection: React.FC = () => {
                       <span className="text-gray-300 font-medium">{skill.name}</span>
                       <div className="flex items-center space-x-2">
                         <span className="text-cyan-400 font-orbitron text-sm">{skill.level}%</span>
-                        <span className="text-gray-500 text-xs">({skill.experience})</span>
                       </div>
                     </div>
                     
@@ -120,25 +112,25 @@ const SkillsSection: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-6">
           <div className="hologram p-6 rounded-lg text-center">
             <div className="text-3xl mb-2">🎯</div>
-            <div className="text-2xl font-orbitron text-cyan-400 mb-1">150+</div>
+            <div className="text-2xl font-orbitron text-cyan-400 mb-1">50+</div>
             <div className="text-sm text-gray-400">Projects Completed</div>
           </div>
           
           <div className="hologram p-6 rounded-lg text-center">
             <div className="text-3xl mb-2">⚡</div>
-            <div className="text-2xl font-orbitron text-cyan-400 mb-1">5+</div>
+            <div className="text-2xl font-orbitron text-cyan-400 mb-1">0+</div>
             <div className="text-sm text-gray-400">Years Experience</div>
           </div>
           
           <div className="hologram p-6 rounded-lg text-center">
             <div className="text-3xl mb-2">🛠️</div>
-            <div className="text-2xl font-orbitron text-cyan-400 mb-1">25+</div>
+            <div className="text-2xl font-orbitron text-cyan-400 mb-1">10+</div>
             <div className="text-sm text-gray-400">Technologies Mastered</div>
           </div>
           
           <div className="hologram p-6 rounded-lg text-center">
             <div className="text-3xl mb-2">🏆</div>
-            <div className="text-2xl font-orbitron text-cyan-400 mb-1">12+</div>
+            <div className="text-2xl font-orbitron text-cyan-400 mb-1">5+</div>
             <div className="text-sm text-gray-400">Awards & Recognition</div>
           </div>
         </div>

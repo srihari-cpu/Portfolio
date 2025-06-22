@@ -9,8 +9,8 @@ interface NavigationProps {
 const Navigation: React.FC<NavigationProps> = ({ activeSection, onSectionChange }) => {
   const navItems = [
     { id: 'about', label: 'PROFILE', icon: '👤' },
-    { id: 'projects', label: 'INVENTORY', icon: '🎮' },
-    { id: 'skills', label: 'STATS', icon: '⚡' },
+    { id: 'projects', label: 'PROJECTS', icon: '🎮' },
+    { id: 'skills', label: 'SKILLS', icon: '⚡' },
     { id: 'contact', label: 'TERMINAL', icon: '💻' }
   ];
 
@@ -20,7 +20,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, onSectionChange 
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="font-orbitron text-xl neon-text tracking-wider">
-            PORTFOLIO.EXE
+            SRIHARI.EXE
           </div>
 
           {/* Navigation Menu */}

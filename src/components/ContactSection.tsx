@@ -27,7 +27,7 @@ const ContactSection: React.FC = () => {
         newHistory.push('System Status: ONLINE', 'Response Time: <100ms', 'Availability: 99.9%');
         break;
       case 'contact':
-        newHistory.push('Email: alex.developer@email.com', 'Location: Remote Global', 'Timezone: UTC+0');
+        newHistory.push('Email: srihariyadav1343@email.com', 'Location: Remote Global', 'Timezone: UTC+0');
         break;
       case 'clear':
         setTerminalHistory(['> Terminal cleared', '> Ready for input']);
@@ -70,7 +70,7 @@ const ContactSection: React.FC = () => {
                 <div className="w-3 h-3 rounded-full bg-yellow-500"></div>
                 <div className="w-3 h-3 rounded-full bg-green-500"></div>
               </div>
-              <div className="text-sm text-gray-400 font-mono">alex@portfolio:~$</div>
+              <div className="text-sm text-gray-400 font-mono">srihariyadav1343@gmail.com:~$</div>
             </div>
 
             {/* Terminal Output */}
@@ -173,15 +173,15 @@ const ContactSection: React.FC = () => {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-3">📧</span>
-                  <span className="text-gray-300">alex.developer@email.com</span>
+                  <span className="text-gray-300">srihariyadav1343@email.com</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-3">💼</span>
-                  <span className="text-gray-300">linkedin.com/in/alexdev</span>
+                  <span className="text-gray-300">linkedin.com/in/srihari1343</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-3">🐙</span>
-                  <span className="text-gray-300">github.com/alexdev</span>
+                  <span className="text-gray-300">github.com/srihari-cpu</span>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-3">🌐</span>

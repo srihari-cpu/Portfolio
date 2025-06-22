@@ -7,25 +7,25 @@ const ProjectsSection: React.FC = () => {
   const projects = [
     {
       id: 1,
-      name: 'Neural Network Visualizer',
-      type: 'Epic',
+      name: 'Email Assistant',
+      type: 'Reply-Generator',
       rarity: 'legendary',
-      tech: ['React', 'Three.js', 'TensorFlow'],
-      description: 'Interactive 3D visualization of neural networks with real-time training data.',
-      demo: 'https://demo.example.com',
-      github: 'https://github.com/example',
+      tech: ['React', 'Material UI', 'Spring-Boot','GEMINI API'],
+      description: '•	Developed an AI-powered email assistant using Gemini API, capable of generating intelligent email replies based on message context.Created a Chrome extension for direct Gmail integration, improving user productivity by reducing email response time',
+      demo: 'https://srihari-email-assistant.netlify.app/',
+      github: 'https://github.com/srihari-cpu/Email-Assistant',
       image: '🧠',
       stats: { complexity: 95, innovation: 90, impact: 85 }
     },
     {
       id: 2,
-      name: 'Blockchain Explorer',
+      name: 'An Automated Invigilation System',
       type: 'Rare',
       rarity: 'rare',
-      tech: ['Vue.js', 'Node.js', 'Web3'],
-      description: 'Real-time blockchain transaction explorer with advanced analytics.',
-      demo: 'https://demo.example.com',
-      github: 'https://github.com/example',
+      tech: ['HTML', 'CSS', 'JavaScript'],
+      description: '•	An Automated Invigilation System that assigns invigilators automatically is designed to streamline the process of assigning exam supervisors without manual intervention.',
+      demo: 'https://an-automated-invigilation.netlify.app/',
+      github: 'https://github.com/srihari-cpu/An-Automated-Invigilation-System',
       image: '⛓️',
       stats: { complexity: 88, innovation: 85, impact: 92 }
     },
@@ -40,42 +40,6 @@ const ProjectsSection: React.FC = () => {
       github: 'https://github.com/example',
       image: '🤖',
       stats: { complexity: 82, innovation: 88, impact: 78 }
-    },
-    {
-      id: 4,
-      name: 'Game Physics Engine',
-      type: 'Epic',
-      rarity: 'legendary',
-      tech: ['C++', 'OpenGL', 'GLSL'],
-      description: 'Custom 2D physics engine with particle systems and collision detection.',
-      demo: 'https://demo.example.com',
-      github: 'https://github.com/example',
-      image: '🎮',
-      stats: { complexity: 98, innovation: 95, impact: 80 }
-    },
-    {
-      id: 5,
-      name: 'Cloud Dashboard',
-      type: 'Rare',
-      rarity: 'rare',
-      tech: ['React', 'AWS', 'GraphQL'],
-      description: 'Comprehensive cloud infrastructure monitoring and management platform.',
-      demo: 'https://demo.example.com',
-      github: 'https://github.com/example',
-      image: '☁️',
-      stats: { complexity: 85, innovation: 80, impact: 90 }
-    },
-    {
-      id: 6,
-      name: 'Music Synthesizer',
-      type: 'Uncommon',
-      rarity: 'uncommon',
-      tech: ['JavaScript', 'Web Audio API'],
-      description: 'Browser-based music synthesizer with custom waveforms and effects.',
-      demo: 'https://demo.example.com',
-      github: 'https://github.com/example',
-      image: '🎵',
-      stats: { complexity: 78, innovation: 85, impact: 70 }
     }
   ];
 

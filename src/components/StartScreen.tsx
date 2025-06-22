@@ -44,10 +44,10 @@ const StartScreen: React.FC<StartScreenProps> = ({ onStart }) => {
         {/* Main Title */}
         <div className="mb-8">
           <h1 className="font-orbitron text-6xl md:text-8xl font-black neon-text mb-4 tracking-wider">
-            PORTFOLIO
+            Rangampeta Srihari
           </h1>
           <div className="text-xl md:text-2xl text-cyan-300 font-light tracking-[0.3em] mb-2">
-            GAMING DEVELOPER
+            FULL-STACK DEVELOPER
           </div>
           <div className="text-sm text-cyan-500 tracking-[0.5em] font-rajdhani">
             INTERACTIVE EXPERIENCE
