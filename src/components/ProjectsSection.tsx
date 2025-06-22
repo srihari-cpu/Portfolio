@@ -24,7 +24,7 @@ const ProjectsSection: React.FC = () => {
       rarity: 'rare',
       tech: ['HTML', 'CSS', 'JavaScript'],
       description: '•	An Automated Invigilation System that assigns invigilators automatically is designed to streamline the process of assigning exam supervisors without manual intervention.',
-      demo: 'https://an-automated-invigilation.netlify.app/',
+      demo: 'https://srihari-cpu.github.io/An-Automated-Invigilation-System/',
       github: 'https://github.com/srihari-cpu/An-Automated-Invigilation-System',
       image: '⛓️',
       stats: { complexity: 88, innovation: 85, impact: 92 }
