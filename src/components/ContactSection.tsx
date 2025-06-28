@@ -10,8 +10,8 @@ const ContactSection: React.FC = () => {
     '> Type "help" for available commands'
   ]);
   const [formData, setFormData] = useState({
-    name: 'Srihari',
-    email: 'srihariyadav@gmail.com',
+    name: '',
+    email: '',
     message: ''
   });
 
