@@ -10,8 +10,8 @@ const ContactSection: React.FC = () => {
     '> Type "help" for available commands'
   ]);
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
+    name: 'Srihari',
+    email: 'srihariyadav@gmail.com',
     message: ''
   });
 
@@ -167,21 +167,40 @@ const ContactSection: React.FC = () => {
               </button>
             </form>
 
-            {/* Contact Info */}
+           {/* Contact Info */}
             <div className="mt-8 pt-6 border-t border-cyan-500/30">
               <h4 className="font-orbitron text-cyan-400 mb-4">DIRECT CHANNELS</h4>
               <div className="space-y-3">
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-3">📧</span>
-                  <span className="text-gray-300">srihariyadav1343@email.com</span>
+                  <a
+                    href="mailto:srihariyadav1343@email.com"
+                    className="text-gray-300 hover:underline"
+                  >
+                    srihariyadav1343@email.com
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-3">💼</span>
-                  <span className="text-gray-300">linkedin.com/in/srihari1343</span>
+                  <a
+                    href="https://www.linkedin.com/in/srihari1343"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:underline"
+                  >
+                    linkedin.com/in/srihari1343
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-3">🐙</span>
-                  <span className="text-gray-300">github.com/srihari-cpu</span>
+                  <a
+                    href="https://github.com/srihari-cpu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-300 hover:underline"
+                  >
+                    github.com/srihari-cpu
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <span className="text-cyan-400 mr-3">🌐</span>
@@ -189,6 +208,7 @@ const ContactSection: React.FC = () => {
                 </div>
               </div>
             </div>
+
           </div>
         </div>
 

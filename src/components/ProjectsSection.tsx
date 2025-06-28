@@ -14,7 +14,7 @@ const ProjectsSection: React.FC = () => {
       description: '•	Developed an AI-powered email assistant using Gemini API, capable of generating intelligent email replies based on message context.Created a Chrome extension for direct Gmail integration, improving user productivity by reducing email response time',
       demo: 'https://srihari-email-assistant.netlify.app/',
       github: 'https://github.com/srihari-cpu/Email-Assistant',
-      image: '🧠',
+      image: '🤖',
       stats: { complexity: 95, innovation: 90, impact: 85 }
     },
     {
@@ -38,7 +38,7 @@ const ProjectsSection: React.FC = () => {
       description: 'Intelligent chatbot with natural language processing capabilities.',
       demo: 'https://demo.example.com',
       github: 'https://github.com/example',
-      image: '🤖',
+      image: '🧠',
       stats: { complexity: 82, innovation: 88, impact: 78 }
     }
   ];
